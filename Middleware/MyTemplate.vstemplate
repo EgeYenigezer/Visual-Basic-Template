@@ -1,0 +1,15 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+	<TemplateData>
+		<DefaultName>MyMiddleware</DefaultName>
+		<Name>MyMiddleware</Name>
+		<Description>Middleware for Visual Basic</Description>
+		<ProjectType>VisualBasic</ProjectType>
+		<TemplateGroupID>AspNetCore</TemplateGroupID>
+		<SortOrder>10</SortOrder>
+		<Icon>__TemplateIcon.png</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<References />
+		<ProjectItem SubType="" TargetFileName="$fileinputname$Middleware.vb" ReplaceParameters="true">MyMiddleware.vb</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
